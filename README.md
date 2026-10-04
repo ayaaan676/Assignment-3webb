@@ -114,15 +114,6 @@ CSS Media Queries are used to change font sizes, spacing, and layout for differe
 
 ---
 
-# Technologies Used
-
-* HTML5
-* CSS3
-* CSS Media Queries
-* Bootstrap 5
-* Bootstrap Grid
-* Bootstrap Navbar
-
 ---
 
 # Project Structure
