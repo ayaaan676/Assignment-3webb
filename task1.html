@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Task 1 - Responsive Layout</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .boxes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .box {
+            width: calc(33.333% - 14px);
+            padding: 60px 20px;
+            background: lightblue;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+
+        @media (max-width: 768px) {
+
+            .box {
+                width: calc(50% - 10px);
+            }
+
+        }
+
+        @media (max-width: 480px) {
+
+            .box {
+                width: 100%;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Responsive Layout</h1>
+
+    <div class="boxes">
+
+        <div class="box">
+            <h2>Box 1</h2>
+        </div>
+
+        <div class="box">
+            <h2>Box 2</h2>
+        </div>
+
+        <div class="box">
+            <h2>Box 3</h2>
+        </div>
+
+    </div>
+
+</body>
+</html>

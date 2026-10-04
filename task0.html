@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Task 0 - Responsive Typography</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        h1 {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 22px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Responsive Typography</h1>
+
+        <p>
+            This text changes its size depending on the screen width.
+        </p>
+
+        <p>
+            On desktop the text is large, on tablet it becomes smaller,
+            and on mobile it becomes even smaller.
+        </p>
+    </div>
+
+</body>
+</html>

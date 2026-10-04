@@ -1,0 +1,81 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.hero {
+    padding: 80px 20px;
+    background: #f2f2f2;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+
+.project-card {
+    height: 100%;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.sidebar {
+    padding: 25px;
+    background: #f2f2f2;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .sidebar {
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .hero {
+        padding: 40px 10px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .project-card {
+        margin-bottom: 15px;
+    }
+
+    .sidebar {
+        padding: 15px;
+    }
+}
